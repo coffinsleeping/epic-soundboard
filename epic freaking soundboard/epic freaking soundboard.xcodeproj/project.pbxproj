@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAE505592C9553D8004FD37D /* epic_freaking_soundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE505582C9553D8004FD37D /* epic_freaking_soundboardApp.swift */; };
+		AAE5055B2C9553D8004FD37D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE5055A2C9553D8004FD37D /* ContentView.swift */; };
+		AAE5055D2C9553DF004FD37D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE5055C2C9553DF004FD37D /* Assets.xcassets */; };
+		AAE505602C9553DF004FD37D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE5055F2C9553DF004FD37D /* Preview Assets.xcassets */; };
+		AAE5056A2C9553E0004FD37D /* epic_freaking_soundboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE505692C9553E0004FD37D /* epic_freaking_soundboardTests.swift */; };
+		AAE505742C9553E0004FD37D /* epic_freaking_soundboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE505732C9553E0004FD37D /* epic_freaking_soundboardUITests.swift */; };
+		AAE505762C9553E0004FD37D /* epic_freaking_soundboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE505752C9553E0004FD37D /* epic_freaking_soundboardUITestsLaunchTests.swift */; };
+		AAE505842C97D388004FD37D /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = AAE505832C97D388004FD37D /* Subsonic */; };
+		AAE505882C97DA34004FD37D /* rupaul kys.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAE505872C97DA34004FD37D /* rupaul kys.mp3 */; };
+		AAE5058A2C97DD72004FD37D /* GET OUT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAE505892C97DD72004FD37D /* GET OUT.mp3 */; };
+		AAE5058C2C97DF4F004FD37D /* FISH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAE5058B2C97DF4F004FD37D /* FISH.mp3 */; };
+		AAE5058E2C97E136004FD37D /* bakugo fart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAE5058D2C97E136004FD37D /* bakugo fart.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAE505662C9553E0004FD37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE5054D2C9553D8004FD37D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE505542C9553D8004FD37D;
+			remoteInfo = "epic freaking soundboard";
+		};
+		AAE505702C9553E0004FD37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE5054D2C9553D8004FD37D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE505542C9553D8004FD37D;
+			remoteInfo = "epic freaking soundboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAE505552C9553D8004FD37D /* epic freaking soundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "epic freaking soundboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE505582C9553D8004FD37D /* epic_freaking_soundboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epic_freaking_soundboardApp.swift; sourceTree = "<group>"; };
+		AAE5055A2C9553D8004FD37D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAE5055C2C9553DF004FD37D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAE5055F2C9553DF004FD37D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAE505652C9553E0004FD37D /* epic freaking soundboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "epic freaking soundboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE505692C9553E0004FD37D /* epic_freaking_soundboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epic_freaking_soundboardTests.swift; sourceTree = "<group>"; };
+		AAE5056F2C9553E0004FD37D /* epic freaking soundboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "epic freaking soundboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE505732C9553E0004FD37D /* epic_freaking_soundboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epic_freaking_soundboardUITests.swift; sourceTree = "<group>"; };
+		AAE505752C9553E0004FD37D /* epic_freaking_soundboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epic_freaking_soundboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAE505872C97DA34004FD37D /* rupaul kys.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "rupaul kys.mp3"; path = "../../rupaul kys.mp3"; sourceTree = "<group>"; };
+		AAE505892C97DD72004FD37D /* GET OUT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "GET OUT.mp3"; path = "../../../Downloads/GET OUT.mp3"; sourceTree = "<group>"; };
+		AAE5058B2C97DF4F004FD37D /* FISH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = FISH.mp3; path = ../../../Downloads/FISH.mp3; sourceTree = "<group>"; };
+		AAE5058D2C97E136004FD37D /* bakugo fart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bakugo fart.mp3"; path = "../../../Downloads/bakugo fart.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE505522C9553D8004FD37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE505842C97D388004FD37D /* Subsonic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE505622C9553E0004FD37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE5056C2C9553E0004FD37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAE5054C2C9553D8004FD37D = {
+			isa = PBXGroup;
+			children = (
+				AAE505572C9553D8004FD37D /* epic freaking soundboard */,
+				AAE505682C9553E0004FD37D /* epic freaking soundboardTests */,
+				AAE505722C9553E0004FD37D /* epic freaking soundboardUITests */,
+				AAE505562C9553D8004FD37D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE505562C9553D8004FD37D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE505552C9553D8004FD37D /* epic freaking soundboard.app */,
+				AAE505652C9553E0004FD37D /* epic freaking soundboardTests.xctest */,
+				AAE5056F2C9553E0004FD37D /* epic freaking soundboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE505572C9553D8004FD37D /* epic freaking soundboard */ = {
+			isa = PBXGroup;
+			children = (
+				AAE505582C9553D8004FD37D /* epic_freaking_soundboardApp.swift */,
+				AAE5055A2C9553D8004FD37D /* ContentView.swift */,
+				AAE5058D2C97E136004FD37D /* bakugo fart.mp3 */,
+				AAE5055C2C9553DF004FD37D /* Assets.xcassets */,
+				AAE505892C97DD72004FD37D /* GET OUT.mp3 */,
+				AAE5058B2C97DF4F004FD37D /* FISH.mp3 */,
+				AAE505872C97DA34004FD37D /* rupaul kys.mp3 */,
+				AAE5055E2C9553DF004FD37D /* Preview Content */,
+			);
+			path = "epic freaking soundboard";
+			sourceTree = "<group>";
+		};
+		AAE5055E2C9553DF004FD37D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAE5055F2C9553DF004FD37D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAE505682C9553E0004FD37D /* epic freaking soundboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE505692C9553E0004FD37D /* epic_freaking_soundboardTests.swift */,
+			);
+			path = "epic freaking soundboardTests";
+			sourceTree = "<group>";
+		};
+		AAE505722C9553E0004FD37D /* epic freaking soundboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE505732C9553E0004FD37D /* epic_freaking_soundboardUITests.swift */,
+				AAE505752C9553E0004FD37D /* epic_freaking_soundboardUITestsLaunchTests.swift */,
+			);
+			path = "epic freaking soundboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE505542C9553D8004FD37D /* epic freaking soundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE505792C9553E0004FD37D /* Build configuration list for PBXNativeTarget "epic freaking soundboard" */;
+			buildPhases = (
+				AAE505512C9553D8004FD37D /* Sources */,
+				AAE505522C9553D8004FD37D /* Frameworks */,
+				AAE505532C9553D8004FD37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "epic freaking soundboard";
+			packageProductDependencies = (
+				AAE505832C97D388004FD37D /* Subsonic */,
+			);
+			productName = "epic freaking soundboard";
+			productReference = AAE505552C9553D8004FD37D /* epic freaking soundboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAE505642C9553E0004FD37D /* epic freaking soundboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE5057C2C9553E0004FD37D /* Build configuration list for PBXNativeTarget "epic freaking soundboardTests" */;
+			buildPhases = (
+				AAE505612C9553E0004FD37D /* Sources */,
+				AAE505622C9553E0004FD37D /* Frameworks */,
+				AAE505632C9553E0004FD37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE505672C9553E0004FD37D /* PBXTargetDependency */,
+			);
+			name = "epic freaking soundboardTests";
+			productName = "epic freaking soundboardTests";
+			productReference = AAE505652C9553E0004FD37D /* epic freaking soundboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAE5056E2C9553E0004FD37D /* epic freaking soundboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE5057F2C9553E0004FD37D /* Build configuration list for PBXNativeTarget "epic freaking soundboardUITests" */;
+			buildPhases = (
+				AAE5056B2C9553E0004FD37D /* Sources */,
+				AAE5056C2C9553E0004FD37D /* Frameworks */,
+				AAE5056D2C9553E0004FD37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE505712C9553E0004FD37D /* PBXTargetDependency */,
+			);
+			name = "epic freaking soundboardUITests";
+			productName = "epic freaking soundboardUITests";
+			productReference = AAE5056F2C9553E0004FD37D /* epic freaking soundboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE5054D2C9553D8004FD37D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AAE505542C9553D8004FD37D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AAE505642C9553E0004FD37D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AAE505542C9553D8004FD37D;
+					};
+					AAE5056E2C9553E0004FD37D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AAE505542C9553D8004FD37D;
+					};
+				};
+			};
+			buildConfigurationList = AAE505502C9553D8004FD37D /* Build configuration list for PBXProject "epic freaking soundboard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE5054C2C9553D8004FD37D;
+			packageReferences = (
+				AAE505822C97D388004FD37D /* XCRemoteSwiftPackageReference "Subsonic" */,
+			);
+			productRefGroup = AAE505562C9553D8004FD37D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE505542C9553D8004FD37D /* epic freaking soundboard */,
+				AAE505642C9553E0004FD37D /* epic freaking soundboardTests */,
+				AAE5056E2C9553E0004FD37D /* epic freaking soundboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE505532C9553D8004FD37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE5058C2C97DF4F004FD37D /* FISH.mp3 in Resources */,
+				AAE5058A2C97DD72004FD37D /* GET OUT.mp3 in Resources */,
+				AAE505602C9553DF004FD37D /* Preview Assets.xcassets in Resources */,
+				AAE5055D2C9553DF004FD37D /* Assets.xcassets in Resources */,
+				AAE5058E2C97E136004FD37D /* bakugo fart.mp3 in Resources */,
+				AAE505882C97DA34004FD37D /* rupaul kys.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE505632C9553E0004FD37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE5056D2C9553E0004FD37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE505512C9553D8004FD37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE5055B2C9553D8004FD37D /* ContentView.swift in Sources */,
+				AAE505592C9553D8004FD37D /* epic_freaking_soundboardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE505612C9553E0004FD37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE5056A2C9553E0004FD37D /* epic_freaking_soundboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE5056B2C9553E0004FD37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE505742C9553E0004FD37D /* epic_freaking_soundboardUITests.swift in Sources */,
+				AAE505762C9553E0004FD37D /* epic_freaking_soundboardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAE505672C9553E0004FD37D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE505542C9553D8004FD37D /* epic freaking soundboard */;
+			targetProxy = AAE505662C9553E0004FD37D /* PBXContainerItemProxy */;
+		};
+		AAE505712C9553E0004FD37D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE505542C9553D8004FD37D /* epic freaking soundboard */;
+			targetProxy = AAE505702C9553E0004FD37D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAE505772C9553E0004FD37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAE505782C9553E0004FD37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE5057A2C9553E0004FD37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"epic freaking soundboard/Preview Content\"";
+				DEVELOPMENT_TEAM = PJ9SM3HGBG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deez-nuts.epic-freaking-soundboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAE5057B2C9553E0004FD37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"epic freaking soundboard/Preview Content\"";
+				DEVELOPMENT_TEAM = PJ9SM3HGBG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deez-nuts.epic-freaking-soundboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAE5057D2C9553E0004FD37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PJ9SM3HGBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deez-nuts.epic-freaking-soundboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/epic freaking soundboard.app/epic freaking soundboard";
+			};
+			name = Debug;
+		};
+		AAE5057E2C9553E0004FD37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PJ9SM3HGBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deez-nuts.epic-freaking-soundboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/epic freaking soundboard.app/epic freaking soundboard";
+			};
+			name = Release;
+		};
+		AAE505802C9553E0004FD37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PJ9SM3HGBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deez-nuts.epic-freaking-soundboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "epic freaking soundboard";
+			};
+			name = Debug;
+		};
+		AAE505812C9553E0004FD37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PJ9SM3HGBG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deez-nuts.epic-freaking-soundboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "epic freaking soundboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE505502C9553D8004FD37D /* Build configuration list for PBXProject "epic freaking soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE505772C9553E0004FD37D /* Debug */,
+				AAE505782C9553E0004FD37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE505792C9553E0004FD37D /* Build configuration list for PBXNativeTarget "epic freaking soundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE5057A2C9553E0004FD37D /* Debug */,
+				AAE5057B2C9553E0004FD37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE5057C2C9553E0004FD37D /* Build configuration list for PBXNativeTarget "epic freaking soundboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE5057D2C9553E0004FD37D /* Debug */,
+				AAE5057E2C9553E0004FD37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE5057F2C9553E0004FD37D /* Build configuration list for PBXNativeTarget "epic freaking soundboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE505802C9553E0004FD37D /* Debug */,
+				AAE505812C9553E0004FD37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAE505822C97D388004FD37D /* XCRemoteSwiftPackageReference "Subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Subsonic";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAE505832C97D388004FD37D /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAE505822C97D388004FD37D /* XCRemoteSwiftPackageReference "Subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AAE5054D2C9553D8004FD37D /* Project object */;
+}
